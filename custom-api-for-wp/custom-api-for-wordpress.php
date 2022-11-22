@@ -7,8 +7,7 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              https://www.miniorange.com
- * @since             1.0.0
+ * 
  * @package           Custom_Api_For_Wordpress
  *
  * @wordpress-plugin
@@ -16,10 +15,7 @@
  * Plugin URI:        custom-api-for-wp
  * Description:       This plugin helps in creating custom api end points for extracting customized data from database. The plugin can also be extended to integrate external APIs in WordPress.
  * Version:           2.5.1
- * Author:            miniOrange
- * Author URI:        https://www.miniorange.com
- * License:           MIT/Expat
- * License URI:       https://docs.miniorange.com/mit-license
+ 
  */
 
 require 'class-custom-api-nav.php';
@@ -33,9 +29,7 @@ if (!defined('WPINC')) {
 }
 
 /**
- * Currently plugin version.
- * Start at version 1.0.0 and use SemVer - https://semver.org
- * Rename this for your plugin and update it as you release new versions.
+ 
  */
 define('CUSTOM_API_FOR_WORDPRESS_VERSION', '2.3.0');
 
